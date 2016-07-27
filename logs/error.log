@@ -1,0 +1,41 @@
+2016-07-24 04:58:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-07-24 04:58:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-07-26 06:54:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-07-26 06:54:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-07-26 06:54:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-07-26 13:12:58 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found.
+Exception Attributes: array (
+  'url' => '/',
+)
+Request URL: /
+Client IP: 192.168.33.1
+Stack Trace:
+#0 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/Router.php(338): Cake\Routing\RouteCollection->parse('/')
+#1 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(55): Cake\Routing\Router::parse(false)
+#2 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Event/EventManager.php(411): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Event/EventManager.php(373): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/wi/funding/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-07-26 13:12:58 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found.
+Exception Attributes: array (
+  'url' => '/',
+)
+Request URL: /
+Client IP: 192.168.33.1
+Stack Trace:
+#0 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/Router.php(338): Cake\Routing\RouteCollection->parse('/')
+#1 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(55): Cake\Routing\Router::parse(false)
+#2 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Event/EventManager.php(411): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Event/EventManager.php(373): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/wi/funding/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /var/www/html/wi/funding/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+

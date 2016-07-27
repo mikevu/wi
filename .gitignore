@@ -1,0 +1,11 @@
+.buildpath
+.editorconfig
+.gitattributes
+.project
+.settings/
+.travis.yml
+README.md
+phpunit.xml.dist
+composer.json
+composer.lock
+
