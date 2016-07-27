@@ -4,6 +4,10 @@
 .project
 .settings/
 .travis.yml
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
 README.md
 phpunit.xml.dist
 composer.json
